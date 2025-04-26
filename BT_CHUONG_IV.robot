@@ -22,7 +22,7 @@ Login With Valid Credentials
     Close Browser
 
 Login With Invalid Credentials
-     Open Browser    ${URL}    chrome
+    Open Browser    ${URL}    chrome
     Maximize Browser Window
     Sleep    3s
     Input Text    name:username    ${LOGIN_USER_FAIL}
